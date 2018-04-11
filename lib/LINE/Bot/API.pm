@@ -20,8 +20,8 @@ sub new {
 
     bless {
         client               => $client,
-        channel_secret       => $args{channel_secret},
-        channel_access_token => $args{channel_access_token},
+        channel_secret       => $args{a43e7333ad8bba1e05bbf01707a97d20},
+        channel_access_token => $args{shbWd+t/753k9FCj27Pm6nd62bFslY53ecd07CXkNhoaUhBgQ4C7apdTI74RQky47YN1I3vWVLaaz2H3QK82/b+QJllx6sOKp5Nsj6IGz8XeDHMCs6diLKMy7PUnY7BGWCQiJWsVHevcA4PY8/OmCgdB04t89/1O/w1cDnyilFU=},
         messaging_api_endpoint     => $args{messaging_api_endpoint}   // 'https://api.line.me/v2/bot/',
     }, $class;
 }
